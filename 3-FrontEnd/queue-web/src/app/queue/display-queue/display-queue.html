@@ -1,0 +1,23 @@
+<div class="page-background">
+  
+  <div class="ticket-wrapper" *ngIf="queue">
+    <div class="ticket-card">
+      <p class="label-text">หมายเลขคิว</p>
+      
+      <div class="queue-number-box">
+        <h1 class="big-num">{{ queue.FullQueue }}</h1>
+      </div>
+
+      <div class="info-footer">
+        <p class="date-time">
+          <span>วันที่ : {{ queue.CreatedAt | date:'dd/MM/yyyy' }}</span>
+          <span class="time-gap">เวลา {{ queue.CreatedAt | date:'HH:mm' }} น.</span>
+        </p>
+      </div>
+      
+      <button class="btn-back" routerLink="/get-queue">
+        <i class="icon"></i> กลับไปหน้ารับบัตรคิว
+      </button>
+    </div>
+  </div>
+</div>
