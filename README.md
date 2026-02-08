@@ -5,8 +5,8 @@ Tech Stack ที่ใช้
 โปรเจกต์นี้ถูกออกแบบมาให้รองรับการทำงานแบบแยกส่วน ดังนี้:
 
 1. Database (SQL Server)
-* ออกแบบโครงสร้าง Table สำหรับระบบคิว
-* ใช้ Stored Procedures ในการจัดการ logic การ Insert และ Update ข้อมูล เพื่อความปลอดภัยและรวดเร็ว
+* สร้าง Table สำหรับระบบคิว
+* ใช้ Stored Procedures ในการจัดการข้อมูล
   
 2. BackEnd (.NET 10 Web API)
 * พัฒนาด้วย .NET 10
