@@ -1,0 +1,23 @@
+<div class="page-background">
+
+  <div class="admin-wrapper">
+    <div class="admin-card">
+      <div class="status-section">
+        <p class="label-text">หมายเลขคิวล่าสุดในระบบ</p>
+        <h1 class="current-num">{{ currentFullQueue || '--' }}</h1>
+      </div>
+
+      <div class="action-section">
+        <button class="btn-reset" (click)="reset()">
+          ล้างคิวทั้งหมด (Reset)
+        </button>
+
+        <div class="divider"><span>หรือ</span></div>
+
+        <button class="btn-back" routerLink="/get-queue">
+          กลับไปหน้ารับบัตรคิว
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

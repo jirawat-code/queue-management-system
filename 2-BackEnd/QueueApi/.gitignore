@@ -1,0 +1,33 @@
+## [ Visual Studio ]
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## [ Build Outputs ]
+bin/
+obj/
+out/
+[Log]/
+
+## [ .NET Core / .NET 5+ ]
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## [ Environment Settings ]
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.*
+
+## [ Publish Outputs ]
+*.publish.xml
+*.pubxml
+*.pubxml.user
+
+## [ Others ]
+*.db
+*.sqlite
+.DS_Store
